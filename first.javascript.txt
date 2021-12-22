@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+functions person(first,last,age,eye)
+{
+this.firstname=first;
+this.lastname=last;
+this.age=age;
+this.eyecoiour=eye;
+this.nationality="english";
+}
+const my father=new person("john","doe",50,"blue");
+const my mother=new person("sally","rally",48,"green");
+document.getelement ById("demo").inner html="my mother is"+
+my father.nationality+".my mother.nationality;
+</script>
+</body>
+</html>
